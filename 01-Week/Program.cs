@@ -192,10 +192,10 @@ namespace _01_Week
         }
         static void Main(string[] args)
         {
-            int[] arr = new int[10];
-            GenerateRandom(arr);
+            int[] arr = {0,1,2,3,4,5,6,7,8,9 };
+         
+            arr = DeleteElement(arr,5);
             PrintArray(arr);
-
         }
     }
 }
