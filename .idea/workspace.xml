@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7a4dea3-d2e2-48a1-b9f7-f1a6a2079b38" name="Changes" comment="" />
+    <list default="true" id="e7a4dea3-d2e2-48a1-b9f7-f1a6a2079b38" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/leetcode-challenge/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-challenge/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-challenge/src/easy/p9_PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-challenge/src/easy/p9_PalindromeNumber.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2SyMAAVzvsPEV1YXY6IpZeQutLm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,7 +34,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User/Desktop/LeetCode-Challenge/leetcode-challenge"
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/baris/Desktop/repos/LeetCode-Challenge/leetcode-challenge"
   }
 }]]></component>
   <component name="RunManager" selected="Application.p26_RemoveDuplicatesFromSortedArray">
@@ -80,6 +88,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="LeetCode-Challenge" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="LeetCode-Challenge" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
