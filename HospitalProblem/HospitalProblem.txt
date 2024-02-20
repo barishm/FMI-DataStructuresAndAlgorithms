@@ -1,0 +1,29 @@
+OOP Design
+
+Hastane Otomasyon
+
+Bir hastanede 20 doktor, 50 hemsire vardir. Doktorlardan sadece operator olanlar ameliyata girebilirken
+butun hemsireler ameliyata girebilmektedir. Bir ameliyata en az bir doktor, hemsire ise en fazla 5 tane girebilir.
+Hastalar yilda 1 kez ameliyat olabilir ve ayda en fazla 3 kere muayene olabilirler.
+
+Bu bilgilere gore asagidaki sorularin cevaplarini bulun?
+
+    * Bir yilda en cok muayene olan hasta kimdir?
+    * Bir ameliyatta olusan en yuksek maliyet nedir?
+
+Ameliyat maliyeti = (ameliyat malzeme adeti x fiyati) + doktor ucreti.
+
+English translation:
+
+Hospital Automation
+
+In a hospital, there are 20 doctors and 50 nurses. Only surgeons among the doctors can participate in surgeries,
+while all nurses can participate in surgeries. A surgery can have at least one doctor and at most 5 nurses.
+Patients can have surgery once a year and can have a maximum of 3 examinations per month.
+
+Based on this information, find the answers to the following questions:
+
+    * Who is the patient that had the most examinations in a year?
+    * What is the highest cost of a surgery?
+
+Surgery cost = (quantity of surgical materials x price) + doctor's fee.
