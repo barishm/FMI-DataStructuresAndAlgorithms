@@ -1,7 +1,7 @@
 public class Doctor extends Employee {
     private boolean isSurgeon;
     private double feePerSurgery;
-    protected Doctor(String fullName, String employeeID, boolean isSurgeon, double feePerSurgery) {
+    protected Doctor(String fullName, Integer employeeID, boolean isSurgeon, double feePerSurgery) {
         super(fullName, employeeID);
         this.isSurgeon = isSurgeon;
         this.feePerSurgery = feePerSurgery;

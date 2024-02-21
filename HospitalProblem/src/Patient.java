@@ -1,7 +1,20 @@
-public class Patient extends Person {
-    private String patientID;
+import java.util.Objects;
 
-    protected Patient(String fullName) {
+public class Patient extends Person {
+
+    private Integer patientID;
+
+    protected Patient(String fullName,Integer patientID) {
         super(fullName);
+        this.patientID = patientID;
     }
+
+    public Integer getPatientID() {
+        return patientID;
+    }
+
+    public void setPatientID(Integer patientID) {
+        this.patientID = patientID;
+    }
+
 }

@@ -2,12 +2,29 @@ import java.time.LocalDate;
 import java.util.List;
 
 public class CompletedSurgery {
+    private Integer surgeryID;
     private Patient patient;
     private List<Doctor> doctors;
-    private Double totalPrice;
+    private double totalPrice;
     private LocalDate localDate;
 
     public CompletedSurgery(Patient patient) {
+        this.patient = patient;
+    }
+
+    public Integer getSurgeryID() {
+        return surgeryID;
+    }
+
+    public void setSurgeryID(Integer surgeryID) {
+        this.surgeryID = surgeryID;
+    }
+
+    public Patient getPatient() {
+        return patient;
+    }
+
+    public void setPatient(Patient patient) {
         this.patient = patient;
     }
 
@@ -19,11 +36,11 @@ public class CompletedSurgery {
         this.doctors = doctors;
     }
 
-    public Double getTotalPrice() {
+    public double getTotalPrice() {
         return totalPrice;
     }
 
-    public void setTotalPrice(Double totalPrice) {
+    public void setTotalPrice(double totalPrice) {
         this.totalPrice = totalPrice;
     }
 

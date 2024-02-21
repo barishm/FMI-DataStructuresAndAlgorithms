@@ -1,4 +1,4 @@
-public abstract class Person extends Hospital {
+public abstract class Person {
     private String fullName;
 
     protected Person(String fullName) {
